@@ -74,7 +74,7 @@ button:active button:hover .btn:active,
 }
 
 .title-h1 {
-  font: normal bold 39px/ 40px var(--roboto);
+  font-weight: 500;
 }
 
 .navbar_fixed {

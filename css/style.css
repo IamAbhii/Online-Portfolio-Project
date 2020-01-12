@@ -162,3 +162,38 @@ footer.footer-area .social a > i {
 footer.footer-area .social a:hover > i {
   color: var(--primary-color);
 }
+
+/* Contact css */
+
+.site-main .contact-area {
+  padding: 1rem 2rem;
+  margin-bottom: 4rem;
+}
+
+.site-main .contact-area .contact-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.site-main .contact-area .contact-info {
+  border: 1px solid var(--border-color);
+  text-align: center;
+  padding: 1.8rem 0rem;
+  margin: 10px;
+  width: 100%;
+  height: 100px;
+  cursor: pointer;
+  transition: transform 0.4s ease;
+  box-shadow: 2px 2px 5px grey;
+}
+
+.site-main .contact-area .col-xl-6:hover {
+  transform: scale(1.1);
+}
+.col-9 {
+  text-align: start;
+}
+
+/* End contact Area */
+
+/* End of contact css */

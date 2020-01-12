@@ -1,4 +1,6 @@
 $(document).ready(function() {
+  //Isotope library function to filter out the project content
+
   let $btns = $('.project-area .button-group button');
 
   $btns.click(function(e) {
@@ -14,6 +16,8 @@ $(document).ready(function() {
   });
 
   $('.project-area .button-group #btn1').trigger('click');
+
+  //magnific pop-up library function to give images a galary view
 
   $('.project-area .grid .test-popup-link').magnificPopup({
     type: 'image',
@@ -57,6 +61,7 @@ $(document).ready(function() {
 
   navbarFixed();
 
+  // function to make smooth scrolling to navagate the website by cllicking navigation bar
   $('.header_area .main-menu .navbar ul.navbar-nav')
     .find('a')
     .click(function() {

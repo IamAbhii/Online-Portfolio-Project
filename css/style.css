@@ -65,70 +65,6 @@
 
 /* End of Banner area */
 
-/* Start About Area */
-
-.site-main .about-area {
-  padding: 8rem 5rem;
-}
-
-.site-main .about-area .about-title h2 > span {
-  display: block;
-  font-weight: 500;
-  letter-spacing: 2px;
-}
-
-.site-main .about-area .about-title .paragraph > p {
-  padding: 0.4rem 0;
-  font-weight: 500;
-}
-
-/* End About Area */
-/* Start skill Area */
-.site-main .skill-area .skill-title h2 > span {
-  display: block;
-  font-weight: 500;
-  letter-spacing: 2px;
-}
-.site-main .skill-area {
-  padding: 1rem 5rem;
-  margin-bottom: 4rem;
-}
-
-.site-main .skill-area .col-lg-3 {
-  display: flex;
-  justify-content: center;
-}
-
-.site-main .skill-area .col-lg-3 > .single-skill {
-  border: 1px solid var(--border-color);
-  text-align: center;
-  padding: 1.8rem 0rem;
-  margin: 0.9rem 0;
-  width: 180px;
-  height: 100px;
-  cursor: pointer;
-  transition: transform 0.4s ease;
-  box-shadow: 2px 2px 5px grey;
-}
-
-.site-main .skill-area .col-lg-3 > .single-skill > img {
-  max-width: 100%;
-  max-height: 100%;
-  overflow: hidden;
-}
-
-.site-main .skill-area .col-lg-3 > .single-skill:hover {
-  box-shadow: var(--box-shadow);
-  transform: scale(1.1);
-}
-
-.site-main .skill-area .col-lg-3 > .single-skill:hover > img {
-  filter: brightness(1);
-  transform: scale(1.7);
-}
-
-/* End skill Area */
-
 /* Project Area */
 
 .site-main .project-area {
@@ -151,12 +87,71 @@
 .site-main .project-area .button-group #btn1 {
   padding-right: 3rem;
 }
-.site-main .project-area .grid .our-project > .title h4 {
+.site-main .project-area .grid .my-project > .title h4 {
   font-weight: 500;
 }
 
-.site-main .project-area .grid .our-project .img a:hover img {
+.site-main .project-area .grid .my-project .img a:hover img {
   filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
 }
 
 /* End Project Area */
+
+.site-main .skill-area .skill-title p {
+  padding: 1rem 7rem;
+}
+
+.site-main .skill-area .technogy {
+  width: 200px;
+  height: 200px;
+  background: #ffffff10;
+  box-shadow: var(--box-shadow);
+  margin: 3rem 0rem;
+  text-align: center;
+}
+
+.site-main .skill-area .technogy .skill-technogy {
+  padding-top: 2rem;
+}
+
+.site-main .skill-area .owl-carousel .owl-item {
+  display: flex;
+  justify-content: center;
+  padding: 0 1.5rem;
+}
+
+.site-main .skill-area .owl-carousel .owl-dots .owl-dot.active span {
+  background: var(--primary-color);
+  width: 12px;
+  height: 12px;
+}
+.site-main .skill-area .technogy .technogy-img {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.owl-carousel .owl-item img {
+  display: block;
+  width: 70%;
+}
+
+footer.footer-area {
+  padding: 5rem 0;
+  background: url(../img/footer-bg.png) no-repeat;
+}
+
+footer.footer-area .social h5 {
+  font-weight: 500px;
+}
+
+footer.footer-area .social a > i {
+  font-size: 22px;
+  padding: 2rem;
+  color: grey;
+}
+
+footer.footer-area .social a:hover > i {
+  color: var(--primary-color);
+}

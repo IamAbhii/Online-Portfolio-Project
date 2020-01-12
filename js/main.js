@@ -19,4 +19,22 @@ $(document).ready(function() {
     type: 'image',
     gallery: { enabled: true }
   });
+
+  $('.site-main .skill-area .owl-carousel').owlCarousel({
+    loop: true,
+    autoplay: true,
+    dots: true,
+    autoplayTimeout: 1000,
+    responsive: {
+      0: {
+        items: 1
+      },
+      560: {
+        items: 2
+      },
+      992: {
+        items: 3
+      }
+    }
+  });
 });

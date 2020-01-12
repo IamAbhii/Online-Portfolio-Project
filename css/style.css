@@ -145,9 +145,12 @@
 }
 
 .site-main .project-area .button-group button + button {
-  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
+.site-main .project-area .button-group #btn1 {
+  padding-right: 3rem;
+}
 .site-main .project-area .grid .our-project > .title h4 {
   font-weight: 500;
 }

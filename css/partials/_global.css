@@ -88,3 +88,7 @@ button:active button:hover .btn:active,
   z-index: 999;
   transition: background 1s ease;
 }
+
+.navbar {
+  padding: 0%;
+}

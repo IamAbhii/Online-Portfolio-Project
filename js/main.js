@@ -56,4 +56,14 @@ $(document).ready(function() {
   }
 
   navbarFixed();
+
+  $('.header_area .main-menu .navbar ul.navbar-nav')
+    .find('a')
+    .click(function() {
+      var $href = $(this).attr('href');
+      var $anchor = $($href).offset();
+      var $newAnchor = $anchor.top - 130;
+      window.scrollTo($anchor.left, $newAnchor);
+      return false;
+    });
 });

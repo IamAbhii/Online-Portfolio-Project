@@ -19,10 +19,10 @@ $(document).ready(function() {
 
   //magnific pop-up library function to give images a galary view
 
-  $('.project-area .grid .test-popup-link').magnificPopup({
-    type: 'image',
-    gallery: { enabled: true }
-  });
+  // $('.project-area .grid .test-popup-link').magnificPopup({
+  //   type: 'image',
+  //   gallery: { enabled: true }
+  // });
 
   $('.site-main .skill-area .owl-carousel').owlCarousel({
     loop: true,

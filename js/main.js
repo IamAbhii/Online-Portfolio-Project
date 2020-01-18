@@ -17,18 +17,11 @@ $(document).ready(function() {
 
   $('.project-area .button-group #btn1').trigger('click');
 
-  //magnific pop-up library function to give images a galary view
-
-  // $('.project-area .grid .test-popup-link').magnificPopup({
-  //   type: 'image',
-  //   gallery: { enabled: true }
-  // });
-
   $('.site-main .skill-area .owl-carousel').owlCarousel({
     loop: true,
     autoplay: true,
     dots: true,
-    autoplayTimeout: 1000,
+    autoplayTimeout: 2000,
     responsive: {
       0: {
         items: 1

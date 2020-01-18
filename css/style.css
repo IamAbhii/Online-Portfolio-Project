@@ -195,5 +195,6 @@ footer.footer-area .social a:hover > i {
 }
 
 /* End contact Area */
-
-/* End of contact css */
+.row {
+  align-items: center;
+}
